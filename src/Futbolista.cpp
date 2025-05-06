@@ -1,7 +1,9 @@
 #include "Futbolista.h"
 
 Futbolista::Futbolista(){
-
+    goles = 0;
+    asistencias = 0;
+    posicion = "";
 }
 
     void Futbolista::setGoles(int goles){
@@ -24,9 +26,3 @@ Futbolista::Futbolista(){
     string Futbolista::getPosicion(){
 
     }
-
-    //agregar objeto credencial/carnet, con ella desagrego "cosas"
-    // va a tener, nombre, documento y programa
-    // registrar 5 de cada uno en el main(futbolosta, nadador, basketbolista)
-    //nombre, documento, codigo, programa
-    // poner en la clase madre

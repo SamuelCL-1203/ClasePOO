@@ -5,7 +5,7 @@
 
 using namespace std;
 
-class Futbolista:Deportista{
+class Futbolista:public Deportista{
     private:
     int goles, asistencias;
     string posicion;

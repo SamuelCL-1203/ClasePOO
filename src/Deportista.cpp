@@ -1,47 +1,8 @@
 #include "Deportista.h"
 
 Deportista::Deportista(){
-    nombre = "";
-    cedula = "";
-    edad = 0;
-    programa = "";
-    genero = "";
     faltas = 0;
-}
-
-void Deportista::setNombre(string nombre){
-    this -> nombre = nombre;
-}
-string Deportista::getNombre(){
-    return nombre;
-}
-
-void Deportista::setCedula(string cedula){
-    this -> cedula = cedula;
-}
-string Deportista::getCedula(){
-    return cedula;
-}
-
-void Deportista::setEdad(int edad){
-    this -> edad = edad;
-}
-int Deportista::getEdad(){
-    return edad;
-}
-
-void Deportista::setPrograma(string programa){
-    this -> programa = programa;
-}
-string Deportista::getPrograma(){
-    return programa;
-}
-
-void Deportista::setGenero(string genero){
-    this -> genero = genero;
-}
-string Deportista::getGenero(){
-    return genero;
+    equipo = "";
 }
 
 void Deportista::setFaltas(int faltas){
@@ -49,4 +10,11 @@ void Deportista::setFaltas(int faltas){
 }
 int Deportista::getFaltas(){
     return faltas;
+}
+
+void Deportista::setEquipo(string equipo){
+    this -> equipo = equipo;
+}
+string Deportista::getEquipo(){
+    return equipo;
 }
